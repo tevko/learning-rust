@@ -19,3 +19,10 @@ $ cd hello_cargo
 - the TOML file is the configuration file for the project
 - packages (crates) are listed in this TOML file
 - Cargo expects your source files to live inside the src directory
+
+## Getting user input
+
+To obtain user input and then print the result as output, we need to bring the io input/output library into scope. The io library comes from the standard library, known as std:
+
+
+`use std::io;`
